@@ -5,8 +5,7 @@
   box-sizing: border-box;
 }
 .centratura {
-  margin: 0 auto;
-  width: 80%;
+  padding: 0 10%;
 }
 .riga::after {
   content: "";
@@ -17,7 +16,6 @@
   float: left;
   width: 15%;
   height: 100px;
-  border: solid 1px black;
 }
 .colonna30 {
   float: left;
@@ -28,8 +26,6 @@
 .colonna50{
   float: left;
   width: 50%;
-  height: 100px;
-  border: solid 1px black;
 }
 .colonna70 {
   float: left;
@@ -41,21 +37,45 @@
   float: left;
   width: 85%;
   height: 100px;
-  border: solid 1px black;
+}
+select{
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+  color: grey;
+}
+select:hover {
+  cursor: pointer;
 }
 a {
   text-decoration: none;
+  color: black;
+}
+button {
+  background-color: #ff7a59;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  border: none;
+}
+button:hover {
+  cursor: pointer;
+  background-color: rgba(255, 0, 0, 0.3);
 }
 /* impostazioni header */
 header {
   padding-top: 100px;
-  font-size: 20px;
+  font-size: 18px;
 }
 header ul{
   list-style-type: none;
+  height: 100px;
+  line-height: 100px;
 }
 header li {
-    display: inline-block;
+  display: inline-block;
+}
+header li:hover {
+  cursor: pointer;
 }
 /* impostazioni prima riga header */
 .sfondoriga1 {
@@ -65,29 +85,72 @@ header li {
   z-index: 999;
   width: 100%;
   height: 100px;
-  background-color: lightblue;
-}
-.link-nav {
-  width: 50%;
-  height: 100px;
-  line-height: 100px;
+  background-color: #f2f8ff;
+  border-bottom: #33475b;
 }
 .link-nav li:first-child {
   margin-right: 19px;
 }
-.link-nav li select{
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-}
 .link-nav li a {
-  color:black;
   padding-left: 20px;
   border-left: solid 2px grey;
 }
+.link1-nav{
+  text-align: right;
+}
+.link1-nav li{
+  margin-left: 20px;
+}
+#login {
+  width: 90px;
+  height: 50px;
+  background-color: white;
+  color: #ff7a59;
+  border: solid 2px #ff7a59;
+}
+#login:hover {
+  background-color: rgba(255, 122, 89, 0.3);
+}
+.button2 {
+  width: 180px;
+  height: 50px;
+}
+/* impostazioni seconda riga header */
+.colonna15 nav {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+#logo {
+  position: absolute;
+  top:50%;
+  left: 0;
+  transform: translatey(-50%);
+}
+/* impostazioni terza riga header */
 .sfondoriga3 {
   background-image: url(../img/jumbotron.png);
   background-size: 100% 100%;
   height: 650px;
+}
+.terzariga {
+  padding-top: 30px;
+  width: 50%;
+}
+h1 {
+  font-size: 45px;
+  margin-bottom: 30px;
+}
+.terzariga p {
+  font-size: 15px;
+    line-height: 2;
+  margin-bottom: 30px;
+}
+.button3 {
+  height: 50px;
+  width: 200px;
+  margin-bottom: 30px;
+
 }
 /* impostazioni main */
 /* impostazioni prima riga main (4riga totale)*/
