@@ -54,7 +54,7 @@ button {
   background-color: #ff7a59;
   color: white;
   border-radius: 5px;
-  font-size: 18px;
+  font-size: 15px;
   border: none;
 }
 button:hover {
@@ -143,7 +143,7 @@ h1 {
 }
 .terzariga p {
   font-size: 15px;
-    line-height: 2;
+  line-height: 2;
   margin-bottom: 30px;
 }
 .button3 {
@@ -155,7 +155,22 @@ h1 {
 /* impostazioni main */
 /* impostazioni prima riga main (4riga totale)*/
 .sfondoriga4{
-  background-color: lightblue;
+  background-color: #f2f8ff;
+}
+.quartariga{
+  text-align: center;
+  padding: 50px 25%;
+}
+.imgcubo {
+  height: 250px;
+}
+.quartariga h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+.quartariga p {
+  line-height: 1.8;
+  margin-bottom: 30px;
 }
 /* impostazioni terza riga main (6 riga totale) */
 .colonnacentrale {
