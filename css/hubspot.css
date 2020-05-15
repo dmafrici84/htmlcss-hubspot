@@ -135,6 +135,7 @@ header li:hover {
 .button2 {
   width: 180px;
   height: 50px;
+  margin-bottom: 30px;
 }
 /* impostazioni seconda riga header */
 .colonna15 nav {
@@ -289,17 +290,41 @@ main ul {
   padding-top: 20px;
   margin-bottom: 20px;
 }
+.riga7 span{
+  font-size: 18px;
+  vertical-align: middle;
+}
 /* impostazioni quinta riga main (8 riga totale) */
 .contenitorecustomers {
   padding: 0 20%;
   text-align: left;
 }
-.imgriga8colonna70{
-  height: 15px;
+.contenitoresponsor{
+  text-align: right;
+  padding-right: 15%;
+  margin-bottom: 10px;
+}
+.imgsponsor{
+  width: 18%;
+  margin-right: 10px;
+  vertical-align: middle;
   display: inline-block;
+}
+/* impostazioni sesta riga main (9 riga totale) */
+.contenitore-col50-riga9 {
+  padding: 30px 25% 0 0;
+}
+.contenitore-col50-riga9 p:last-child {
+  font-size: 13px;
+}
+.contenitore-imgdonna {
+  text-align: right;
+}
+.imgdonna {
+  width: 48%;
 }
 /* impostazioni footer */
 footer {
   height: 500px;
-  background-color: green;
+  background-color: #33475b;
 }
