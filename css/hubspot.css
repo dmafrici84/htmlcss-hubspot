@@ -17,6 +17,10 @@
   width: 15%;
   height: 100px;
 }
+.colonna25 {
+  float: left;
+  width: 25%
+}
 .colonna30 {
   float: left;
   width: 30%;
@@ -178,6 +182,10 @@ main {
 main section{
   margin-bottom: 30px;
 }
+main h2 {
+  font-size: 32px;
+  margin-bottom: 30px;
+}
 main h3 {
   font-size: 25px;
   margin-bottom: 30px;
@@ -190,6 +198,15 @@ main p {
   line-height: 1.8;
   margin-bottom: 30px;
 }
+main ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
+.rigamain {
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px lightgrey;
+}
 .imgcolonna30  {
   height: 150px;
   padding-top: 30px;
@@ -200,28 +217,15 @@ main p {
   width: 160px;
   margin-bottom: 30px;
 }
-main ul {
-  list-style-type: none;
-  margin-bottom: 30px;
-}
 /* impostazioni prima riga main (4riga totale)*/
 .quartariga{
   text-align: center;
   padding: 50px 25%;
 }
-.imgcubo {
+#imgcubo {
   height: 250px;
 }
-.quartariga h2 {
-  font-size: 32px;
-  margin-bottom: 30px;
-}
 /* impostazioni seconda riga del mian (5 riga totale) */
-.rigamain {
-  background-color: white;
-  border-radius: 8px;
-  border: solid 1px lightgrey;
-}
 .contenitorepopolar{
   padding: 30px 25% 0 5%;
 }
@@ -260,6 +264,30 @@ main ul {
 }
 .ulsestariga {
   text-align: left;
+}
+/*  impostazioni quarta riga main (7 riga totale)  */
+.sfondoriga7 {
+  background-color: #00bda5;
+  color: #fff;
+  text-align: center;
+
+}
+.riga7 {
+  padding: 30px 6% 80px;;
+}
+.sottoriga7 {
+    border-bottom: solid 1px #fff;
+}
+.riga7 .colonna25 {
+  border-right: solid 1px #fff;
+}
+.riga7 .colonna25:last-child {
+  border-right: none;
+}
+.imgriga7 {
+  height: 50px;
+  padding-top: 20px;
+  margin-bottom: 20px;
 }
 /* impostazioni footer */
 footer {
