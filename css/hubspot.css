@@ -323,8 +323,31 @@ main ul {
 .imgdonna {
   width: 48%;
 }
-/* impostazioni footer */
+/* impostazioni generali footer */
 footer {
   height: 500px;
+  color: #fff;
+  padding-top: 30px;
   background-color: #33475b;
 }
+footer h3 {
+  margin-bottom: 30px;
+}
+footer ul {
+  list-style-type: none;
+}
+footer li {
+  line-height: 3;
+}
+footer a{
+  color: #fff;
+}
+#contact {
+  background-color: #fff;
+  color: #33475b;
+  height: 40px;
+  width: 180px;
+}
+/* impostazioni prima riga footer ( 10 riga totale) */
+/* impostazioni seconda riga footer ( 10 riga totale) */
+/* impostazioni terza riga footer ( 10 riga totale) */
