@@ -289,6 +289,15 @@ main ul {
   padding-top: 20px;
   margin-bottom: 20px;
 }
+/* impostazioni quinta riga main (8 riga totale) */
+.contenitorecustomers {
+  padding: 0 20%;
+  text-align: left;
+}
+.imgriga8colonna70{
+  height: 15px;
+  display: inline-block;
+}
 /* impostazioni footer */
 footer {
   height: 500px;
