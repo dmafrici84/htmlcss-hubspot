@@ -20,18 +20,17 @@
 .colonna30 {
   float: left;
   width: 30%;
-  height: 200px;
-  border: solid 1px black;
+  padding: 0 2%;
+  text-align: center;
 }
 .colonna50{
   float: left;
   width: 50%;
+
 }
 .colonna70 {
   float: left;
   width: 70%;
-  height: 200px;
-  border: solid 1px black;
 }
 .colonna85 {
   float: left;
@@ -85,7 +84,7 @@ header li:hover {
   z-index: 999;
   width: 100%;
   height: 100px;
-  background-color: #f2f8ff;
+  background-color: #f5f8fa;
   border-bottom: #33475b;
 }
 .link-nav li:first-child {
@@ -100,6 +99,24 @@ header li:hover {
 }
 .link1-nav li{
   margin-left: 20px;
+}
+.link1-nav li input {
+  background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png);
+  background-repeat: no-repeat;
+  background-size: 22px;
+  background-position: left;
+  background-color: rgba(255, 0, 0, 0);
+  height: 35px;
+  width: 35px;
+  border: none;
+  padding-left: 35px;
+  font-size: 18px;
+  color : lightgrey;
+}
+.link1-nav li input:hover {
+  width: 200px;
+  border-radius: 8px;
+  border: solid 1px #30d3d9;
 }
 #login {
   width: 90px;
@@ -134,8 +151,8 @@ header li:hover {
   height: 650px;
 }
 .terzariga {
-  padding-top: 30px;
-  width: 50%;
+  padding-top: 50px;
+  width: 52%;
 }
 h1 {
   font-size: 45px;
@@ -150,13 +167,44 @@ h1 {
   height: 50px;
   width: 200px;
   margin-bottom: 30px;
-
 }
-/* impostazioni main */
+.terzariga p:last-child {
+  font-size: 12px;
+}
+/* impostazioni generali main */
+main {
+  background-color: #f5f8fa;
+}
+main section{
+  margin-bottom: 30px;
+}
+main h3 {
+  font-size: 25px;
+  margin-bottom: 30px;
+}
+main h4 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+main p {
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+.imgcolonna30  {
+  height: 150px;
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.learnmore {
+  height: 50px;
+  width: 160px;
+  margin-bottom: 30px;
+}
+main ul {
+  list-style-type: none;
+  margin-bottom: 30px;
+}
 /* impostazioni prima riga main (4riga totale)*/
-.sfondoriga4{
-  background-color: #f2f8ff;
-}
 .quartariga{
   text-align: center;
   padding: 50px 25%;
@@ -168,13 +216,50 @@ h1 {
   font-size: 32px;
   margin-bottom: 30px;
 }
-.quartariga p {
-  line-height: 1.8;
+/* impostazioni seconda riga del mian (5 riga totale) */
+.rigamain {
+  background-color: white;
+  border-radius: 8px;
+  border: solid 1px lightgrey;
+}
+.contenitorepopolar{
+  padding: 30px 25% 0 5%;
+}
+.bloccopopolar{
   margin-bottom: 30px;
+}
+.bloccopopolar::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.colonnina1 {
+  float: left;
+  width: 35%;
+  height: 40px;
+  line-height: 40px;
+}
+.colonnina2 {
+  float:left;
+  width: 65%;
+  height: 20px;
+  border-bottom: solid 2px lightgrey;
+}
+.ulquintariga li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.chekmark {
+  height: 15px;
+  margin-right: 10px;
+  vertical-align: middle;
 }
 /* impostazioni terza riga main (6 riga totale) */
 .colonnacentrale {
   margin: 0 5%;
+}
+.ulsestariga {
+  text-align: left;
 }
 /* impostazioni footer */
 footer {
