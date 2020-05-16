@@ -12,34 +12,32 @@
   display: table;
   clear: both;
 }
-.colonna15 {
+.colonna-15 {
   float: left;
   width: 15%;
-  height: 100px;
 }
-.colonna25 {
+.colonna-25 {
   float: left;
   width: 25%
 }
-.colonna30 {
+.colonna-30 {
   float: left;
   width: 30%;
   padding: 0 2%;
   text-align: center;
 }
-.colonna50{
+.colonna-50 {
   float: left;
   width: 50%;
 
 }
-.colonna70 {
+.colonna-70 {
   float: left;
   width: 70%;
 }
-.colonna85 {
+.colonna-85 {
   float: left;
   width: 85%;
-  height: 100px;
 }
 select{
   background-color: rgba(0, 0, 0, 0);
@@ -64,15 +62,20 @@ button:hover {
   cursor: pointer;
   background-color: rgba(255, 0, 0, 0.3);
 }
+.button_get {
+  width: 200px;
+  height: 60px;
+  margin-bottom: 30px;
+}
 /* impostazioni header */
 header {
-  padding-top: 100px;
-  font-size: 18px;
+  padding-top: 80px;
+  font-size: 20px;
 }
 header ul{
   list-style-type: none;
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
 }
 header li {
   display: inline-block;
@@ -87,9 +90,10 @@ header li:hover {
   left: 0;
   z-index: 999;
   width: 100%;
-  height: 100px;
+  height: 80px;
   background-color: #f5f8fa;
-  border-bottom: #33475b;
+  border-bottom: solid 1px lightgrey;
+  font-size: 18px;
 }
 .link-nav li:first-child {
   margin-right: 19px;
@@ -107,11 +111,11 @@ header li:hover {
 .link1-nav li input {
   background-image: url(https://cdn2.hubspot.net/hubfs/53/assets/hubspot.com/_style-guide/sword-sprocket/search%20icon.png);
   background-repeat: no-repeat;
-  background-size: 22px;
-  background-position: left;
+  background-size: 18px;
+  background-position: 3% 50%;
   background-color: rgba(255, 0, 0, 0);
-  height: 35px;
-  width: 35px;
+  height: 40px;
+  width: 10px;
   border: none;
   padding-left: 35px;
   font-size: 18px;
@@ -123,8 +127,8 @@ header li:hover {
   border: solid 1px #30d3d9;
 }
 #login {
-  width: 90px;
-  height: 50px;
+  width: 70px;
+  height: 40px;
   background-color: white;
   color: #ff7a59;
   border: solid 2px #ff7a59;
@@ -132,18 +136,17 @@ header li:hover {
 #login:hover {
   background-color: rgba(255, 122, 89, 0.3);
 }
-.button2 {
-  width: 180px;
-  height: 50px;
-  margin-bottom: 30px;
+.button_nav_get {
+  width: 140px;
+  height: 40px;
 }
 /* impostazioni seconda riga header */
-.colonna15 nav {
-  height: 100%;
-  width: 100%;
+.colonna-15 nav {
+  height: 80px;
   position: relative;
 }
-#logo {
+.logo {
+  width: 70%;
   position: absolute;
   top:50%;
   left: 0;
@@ -168,11 +171,6 @@ h1 {
   line-height: 2;
   margin-bottom: 30px;
 }
-.button3 {
-  height: 50px;
-  width: 200px;
-  margin-bottom: 30px;
-}
 .terzariga p:last-child {
   font-size: 12px;
 }
@@ -182,6 +180,9 @@ main {
 }
 main section{
   margin-bottom: 30px;
+}
+main section:last-child {
+  margin-bottom: 0;
 }
 main h2 {
   font-size: 32px;
@@ -279,10 +280,10 @@ main ul {
 .sottoriga7 {
     border-bottom: solid 1px #fff;
 }
-.riga7 .colonna25 {
+.riga7 .colonna-25 {
   border-right: solid 1px #fff;
 }
-.riga7 .colonna25:last-child {
+.riga7 .colonna-25:last-child {
   border-right: none;
 }
 .imgriga7 {
@@ -316,6 +317,7 @@ main ul {
 }
 .contenitore-col50-riga9 p:last-child {
   font-size: 13px;
+  margin-bottom: 50px;
 }
 .contenitore-imgdonna {
   text-align: right;
@@ -325,10 +327,15 @@ main ul {
 }
 /* impostazioni generali footer */
 footer {
-  height: 500px;
-  color: #fff;
+  color: #cbd6e2;
   padding-top: 30px;
   background-color: #33475b;
+}
+footer section {
+  margin-bottom: 30px;
+}
+footer section:last-child{
+  margin-bottom: 0;
 }
 footer h3 {
   margin-bottom: 30px;
@@ -340,14 +347,47 @@ footer li {
   line-height: 3;
 }
 footer a{
-  color: #fff;
+  color: #cbd6e2;
+}
+/* impostazioni prima riga footer ( 10 riga totale) */
+.social {
+  display: inline-block;
+  margin-right: 20px;
 }
 #contact {
-  background-color: #fff;
+  background-color: #cbd6e2;
   color: #33475b;
   height: 40px;
   width: 180px;
+  font-size: 14px;
 }
-/* impostazioni prima riga footer ( 10 riga totale) */
-/* impostazioni seconda riga footer ( 10 riga totale) */
-/* impostazioni terza riga footer ( 10 riga totale) */
+/* impostazioni seconda riga footer ( 11 riga totale) */
+.riga-11 {
+  text-align: center;
+  border-bottom: solid 1px #cbd6e2;
+}
+.riga-11 li {
+  display: inline-block;
+  margin-right: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+/* impostazioni terza riga footer ( 12 riga totale) */
+.riga-12 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.riga-12 img {
+  width: 20%;
+  margin-bottom: 8px;
+}
+.riga-12 ul {
+  text-align: right;
+}
+.riga-12 li {
+  display: inline-block;
+}
+.riga-12 li:first-child {
+  margin-right: 30px;
+  padding-bottom: 30px;
+}
