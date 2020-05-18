@@ -39,13 +39,9 @@
   float: left;
   width: 85%;
 }
-select {
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  color: #33475b;
-}
-select:hover {
-  cursor: pointer;
+.fa-angle-down {
+  margin-left: 8px;
+  color: #33475b
 }
 a {
   text-decoration: none;
