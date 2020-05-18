@@ -39,7 +39,7 @@
   float: left;
   width: 85%;
 }
-select{
+select {
   background-color: rgba(0, 0, 0, 0);
   border: none;
   color: #33475b;
@@ -72,7 +72,7 @@ header {
   padding-top: 80px;
   font-size: 20px;
 }
-header ul{
+header ul {
   list-style-type: none;
   height: 80px;
   line-height: 80px;
@@ -102,10 +102,10 @@ header li:hover {
   padding-left: 20px;
   border-left: solid 2px lightgrey;
 }
-.link_1_nav{
+.link_1_nav {
   text-align: right;
 }
-.link_1_nav li{
+.link_1_nav li {
   margin-left: 20px;
 }
 .link_1_nav li input {
@@ -172,13 +172,13 @@ h1 {
   margin-bottom: 30px;
 }
 .terza_riga p:last-child {
-  font-size: 12px;
+  font-size: 13px;
 }
 /* impostazioni generali main */
 main {
   background-color: #f5f8fa;
 }
-main section{
+main section {
   margin-bottom: 30px;
 }
 main section:last-child {
@@ -294,7 +294,7 @@ main ul {
   padding-top: 20px;
   margin-bottom: 20px;
 }
-.riga_7 span{
+.riga_7 span {
   font-size: 18px;
   vertical-align: middle;
 }
@@ -308,7 +308,7 @@ main ul {
   padding-right: 10%;
   margin-bottom: 10px;
 }
-.img_sponsor{
+.img_sponsor {
   width: 18%;
   margin-right: 10px;
   vertical-align: middle;
@@ -337,7 +337,7 @@ footer {
 footer section {
   margin-bottom: 30px;
 }
-footer section:last-child{
+footer section:last-child {
   margin-bottom: 0;
 }
 footer h3 {
@@ -349,7 +349,7 @@ footer ul {
 footer li {
   line-height: 3;
 }
-footer a{
+footer a {
   font-size: 18px;
   color: #cbd6e2;
 }
