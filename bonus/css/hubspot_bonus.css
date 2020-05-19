@@ -229,6 +229,9 @@ header li:hover {
   border-top: solid 1px lightgrey;
   line-height: 30px;
 }
+.tipi_software > div:hover {
+  background-color: #e1f0fa;
+}
 .img_software {
   width: 100%;
   vertical-align: middle;
