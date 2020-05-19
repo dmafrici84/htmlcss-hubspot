@@ -115,6 +115,7 @@ header li:hover {
 .link_nav {
   position: relative;
 }
+/* impostazioni blocco tendina lingue */
 .lingue {
   position: absolute;
   top: 60px;
@@ -125,13 +126,19 @@ header li:hover {
 }
 .lingue li {
   display: list-item;
-  line-height: 50px;
+  width: 100%;
+  text-align: left;
+  font-size: 18px;
+  padding: 10px;
+  line-height: 30px;
 }
 .scelta_lingue:hover .lingue {
   display: block;
 }
+/* fine blocco tendina lingue */
 .link_1_nav {
   text-align: right;
+  position: relative;
 }
 .link_1_nav li {
   margin-left: 20px;
@@ -182,7 +189,6 @@ header li:hover {
 }
 /* impostzioni generali tendina nav di destra */
 .contenitore_link_tendina {
-  position: relative;
   text-align: left;
 }
 .tendina_nav h4 {
@@ -191,13 +197,10 @@ header li:hover {
 .tendina_nav p {
   font-size: 15px;
 }
-.tendina_nav .colonna_15 {
-  padding: 10px;
-}
-.tendina_nav .colonna_85 {
-  padding: 10px 30px 10px 0;
-}
 /* impostazioni tendina software */
+.software {
+  position: relative;
+}
 .tipi_software {
   position: absolute;
   top: 60px;
@@ -206,13 +209,20 @@ header li:hover {
   width: 500px;
   height: 850px;
 }
+.tipi_software li {
+  width: 100%;
+  text-align: left;
+  line-height: 30px;
+  margin-left: 0;
+}
 .contenitore_link_tendina:hover .tipi_software {
   display: block;
 }
-.tipi_software li {
-  width: 100%;
-  margin-left: 0;
-  line-height: 30px;
+.tendina_nav .colonna_15 {
+  padding: 10px;
+}
+.tendina_nav .colonna_85 {
+  padding: 10px 30px 10px 0;
 }
 .tipi_software li:last-child {
   padding: 10px;
@@ -226,7 +236,7 @@ header li:hover {
 .resources {
   position: absolute;
   top: 60px;
-  right: -250px;
+  right: -20px;
   width: 900px;
 }
 .contenitore_link_tendina:hover .resources {
@@ -255,7 +265,7 @@ header li:hover {
 .partners {
   position: absolute;
   top: 60px;
-  right: -125px;
+  right: -20px;
   width: 600px;
 }
 .contenitore_link_tendina:hover .partners {
@@ -274,25 +284,34 @@ header li:hover {
 .partners h4 {
   margin-bottom: 20px;
 }
-/* impostazioni blocco tendina partners */
+/* impostazioni blocco tendina about */
 .about {
   position: absolute;
   top: 60px;
   right: -20px;
-  width: 600px;
-  height: 600px;
+  width: 630px;
+  height: 400px;
+  line-height: normal;
 }
 .contenitore_link_tendina:hover .about {
   display: block;
 }
 .about h4 {
   text-align: left;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.about ul {
+  line-height: 20px;
 }
 .about li {
-  text-align: left;
   margin-left: 0;
   width: 100%;
+  text-align: left;
   font-size: 18px;
+  padding: 10px;
+  line-height: 30px;
+}
 /* impostazioni terza riga header */
 .sfondo_riga_3 {
   background-image: url(../../img/jumbotron.png);
