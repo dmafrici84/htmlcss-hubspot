@@ -207,25 +207,27 @@ header li:hover {
   left: -20px;
   z-index: 998;
   width: 500px;
-  height: 850px;
-}
-.tipi_software li {
-  width: 100%;
-  text-align: left;
-  line-height: 30px;
-  margin-left: 0;
+  height: 750px;
 }
 .contenitore_link_tendina:hover .tipi_software {
   display: block;
 }
-.tendina_nav .colonna_15 {
+.tipi_software .colonna_15 {
   padding: 10px;
 }
-.tendina_nav .colonna_85 {
-  padding: 10px 30px 10px 0;
+.tipi_software .colonna_85 {
+  padding: 20px 30px 10px 0;
+  text-align: left;
+  line-height: 30px;
 }
-.tipi_software li:last-child {
-  padding: 10px;
+.tipi_software > div:first-child {
+  padding-bottom: 20px;
+  border-bottom: solid 1px lightgrey;
+}
+.tipi_software > div:last-child {
+  padding: 30px 10px;
+  border-top: solid 1px lightgrey;
+  line-height: 30px;
 }
 .img_software {
   width: 100%;
@@ -290,7 +292,7 @@ header li:hover {
   top: 60px;
   right: -20px;
   width: 630px;
-  height: 400px;
+  height: 330px;
   line-height: normal;
 }
 .contenitore_link_tendina:hover .about {
