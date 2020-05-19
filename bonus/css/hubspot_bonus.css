@@ -4,6 +4,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+body {
+  color: #33475b;
+}
 .centratura {
   padding: 0 15%;
 }
@@ -39,23 +42,9 @@
   float: left;
   width: 85%;
 }
-select {
-  width: 20px;
-  background-color: rgba(0, 0, 0, 0);
-  border: none;
-  color: #33475b;
-  font-size: 16px;
-  color: black;
-}
-select:hover {
-  cursor: pointer;
-}
-option {
-  font-size: 16px;
-}
 a {
   text-decoration: none;
-  color: black;
+  color: #33475b;
 }
 button {
   background-color: #ff7a59;
@@ -73,7 +62,7 @@ button:hover {
   height: 60px;
   margin-bottom: 30px;
 }
-/* impostazioni header */
+/* impostazioni generali header */
 header {
   padding-top: 80px;
   font-size: 20px;
@@ -86,8 +75,23 @@ header ul {
 header li {
   display: inline-block;
 }
-header label:hover {
+header li:hover {
   cursor: pointer;
+}
+.fa-angle-down {
+  margin-left: 8px;
+  color: #7289a1;
+}
+/* impostazioni generali tendina nav */
+.tendina_nav {
+  display: none;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 3px;
+  border: solid 1px lightgrey;
+}
+.tendina_nav li:hover {
+  background-color: #e1f0fa;
 }
 /* impostazioni prima riga header */
 .sfondo_riga_1 {
@@ -107,6 +111,24 @@ header label:hover {
 .link_nav li a {
   padding-left: 20px;
   border-left: solid 2px lightgrey;
+}
+.link_nav {
+  position: relative;
+}
+.lingue {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  z-index: 998;
+  width: 125px;
+  height: 320px;
+}
+.lingue li {
+  display: list-item;
+  line-height: 50px;
+}
+.scelta_lingue:hover .lingue {
+  display: block;
 }
 .link_1_nav {
   text-align: right;
@@ -158,6 +180,119 @@ header label:hover {
   left: 0;
   transform: translatey(-50%);
 }
+/* impostzioni generali tendina nav di destra */
+.contenitore_link_tendina {
+  position: relative;
+  text-align: left;
+}
+.tendina_nav h4 {
+  font-size: 18px;
+}
+.tendina_nav p {
+  font-size: 15px;
+}
+.tendina_nav .colonna_15 {
+  padding: 10px;
+}
+.tendina_nav .colonna_85 {
+  padding: 10px 30px 10px 0;
+}
+/* impostazioni tendina software */
+.tipi_software {
+  position: absolute;
+  top: 60px;
+  left: -20px;
+  z-index: 998;
+  width: 500px;
+  height: 850px;
+}
+.contenitore_link_tendina:hover .tipi_software {
+  display: block;
+}
+.tipi_software li {
+  width: 100%;
+  margin-left: 0;
+  line-height: 30px;
+}
+.tipi_software li:last-child {
+  padding: 10px;
+}
+.img_software {
+  width: 100%;
+  vertical-align: middle;
+  text-align: center;
+}
+/* impostazioni tendina resources */
+.resources {
+  position: absolute;
+  top: 60px;
+  right: -250px;
+  width: 900px;
+}
+.contenitore_link_tendina:hover .resources {
+  display: block;
+}
+.resources .riga {
+  border-bottom: solid 1px lightgrey;
+}
+.resources .riga:last-child {
+  border-bottom: none;
+}
+.resources .colonna_30 {
+  text-align: left;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.resources .colonna_30:hover {
+  background-color: #e1f0fa;
+}
+.resources h4 {
+  margin-bottom: 20px;
+}
+/* impostazioni blocco tendina partners */
+.partners {
+  position: absolute;
+  top: 60px;
+  right: -125px;
+  width: 600px;
+}
+.contenitore_link_tendina:hover .partners {
+  display: block;
+}
+.partners .colonna_50 {
+  text-align: left;
+  line-height: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+}
+.partners .colonna_50:hover {
+  background-color: #e1f0fa;
+}
+.partners h4 {
+  margin-bottom: 20px;
+}
+/* impostazioni blocco tendina partners */
+.about {
+  position: absolute;
+  top: 60px;
+  right: -20px;
+  width: 600px;
+  height: 600px;
+}
+.contenitore_link_tendina:hover .about {
+  display: block;
+}
+.about h4 {
+  text-align: left;
+}
+.about li {
+  text-align: left;
+  margin-left: 0;
+  width: 100%;
+  font-size: 18px;
 /* impostazioni terza riga header */
 .sfondo_riga_3 {
   background-image: url(../../img/jumbotron.png);
